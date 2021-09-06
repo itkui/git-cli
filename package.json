@@ -1,0 +1,20 @@
+{
+  "name": "git-cli",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "gitcli": "bin/cli"
+  },
+  "keywords": [
+    "git cli"
+  ],
+  "author": "itkui<13452903663@163.com>",
+  "description": "git 仓库代码快速拉取工具，能够快速生成git 仓库中的项目文件或者目录",
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.1.0",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.1.2"
+  }
+}
